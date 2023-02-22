@@ -1,0 +1,11 @@
+   body {
+       background-image: url("./yellow.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+   }
+
+   .div1 {
+       margin: 300px 200px 200px 30px;
+       color: aliceblue;
+       font-style: italic;
+   }
