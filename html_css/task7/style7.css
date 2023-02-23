@@ -1,9 +1,6 @@
 body {
     margin: 250px 300px 300px;
-
 }
-
-
 .div1 {
     text-align: center;
     font-size: 10px;
@@ -17,7 +14,6 @@ body {
     float: left;
     margin: 20px
 }
-
 .i1 {
     color: white;
     width: 30px;
@@ -39,7 +35,4 @@ body {
     height: 20px;
     border: 1px solid rgb(190, 182, 182);
     padding: 5px;
-
-
-
 }
