@@ -1,3 +1,11 @@
+/* A: Aydan xanim taski cox gozel hell etmisiniz. Heqiqeten! Ona gore de men detala cox gedeceyem her xirda detail deyecem ki, daha da yaxsi oyrenesiniz :)
+1. font sriftlerine diqqet edin (serif-dir sizde)
+2. class adlarini menali verin. (div1 adi mende hec bir tesevvur yaratmir) Ingilisler demishken, it doesn't make any sense :)
+3. kodlari seliqeye salaq, mes, bosluqlari silek
+
+
+*/
+
 body {
     margin: 250px 300px 300px;
 }
@@ -24,6 +32,7 @@ body {
 
 }
 
+/* A: clear-a ehtiyac varmi? */
 .div2 {
     clear: right;
     margin: 5px;
