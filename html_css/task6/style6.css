@@ -1,3 +1,7 @@
+@font-face{
+    font-family:Inconsolata;
+    src: url("./Inconsolata-VariableFont_wdth\,wght.ttf " );
+}
    body {
        background-image: url("./yellow.jpg");
        background-repeat: no-repeat;
@@ -5,7 +9,10 @@
    }
 
    .div1 {
+       font-size:20px;
+       font-family:Inconsolata;
        margin: 300px 200px 200px 30px;
        color: aliceblue;
-       font-style: italic;
+       border-left: 5px solid white;
+       padding: 10px;
    }

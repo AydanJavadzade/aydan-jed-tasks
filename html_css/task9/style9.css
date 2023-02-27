@@ -1,0 +1,25 @@
+@font-face {
+    font-family: Pasifico;
+    src: url("./Pacifico-Regular.ttf ");
+}
+
+body {
+    margin: 0;
+    background-color: rgb(204, 211, 215);
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    font-size: 20px;
+    font-style: italic;
+    margin: 50px 150px;
+}
+
+.text {
+    font-family: Pasifico;
+}
+.tvit{color: rgb(92, 175, 220);}
