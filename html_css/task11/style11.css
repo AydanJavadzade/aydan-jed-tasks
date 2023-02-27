@@ -1,0 +1,30 @@
+body {
+    background-color: grey;
+}
+
+img {
+    width: 600px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background-image: url("./foto.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    float: right;
+
+}
+
+div::after {
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    inset: 0;
+}
