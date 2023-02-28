@@ -1,3 +1,4 @@
+/* A: live legend 🐱‍💻 */
 @font-face {
     font-family: Pasifico;
     src: url("./Pacifico-Regular.ttf ");
@@ -22,4 +23,7 @@ p {
 .text {
     font-family: Pasifico;
 }
-.tvit{color: rgb(92, 175, 220);}
+
+.tvit {
+    color: rgb(92, 175, 220);
+}
