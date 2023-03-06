@@ -67,6 +67,7 @@ a {
 
 .table-head {
     display: flex;
+    align-items: center;
     background-color: orange;
     justify-content: space-around;
     color: white;
