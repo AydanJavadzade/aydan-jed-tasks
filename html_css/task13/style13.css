@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: nunito;
+    src: url(" NunitoSans-Regular.ttf ");
+}
+
+* {
+    font-family: nunito;
+    box-sizing: border-box;
+}
+
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(32, 34, 46);
+    padding: 15px;
+    height: 70px;
+    margin-bottom: 5px;
+}
+
+.links-flex {
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    color: white;
+}
+
+.container-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-flex {
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    gap: 25px;
+    padding: 35px;
+}
+
+.pb-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 300px;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.container-child {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 79.5%;
+}
+
+.chart-head {
+    display: flex;
+    background-color: orange;
+    justify-content: space-around;
+    color: white;
+    font-weight: bolder;
+    height: 5%;
+}
+
+.chart-flex {
+    display: flex;
+    height: 95%;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(80, 80, 118);
+    padding: 10px;
+}
+
+.chart-text {
+    background-color: white;
+    width: 32.5%;
+    height: 330px;
+    text-align: left;
+    font-size: 10px;
+    padding: 30px;
+}
+
+div>h1 {
+    text-align: center;
+}
+
+.end {
+    background-color: rgb(32, 34, 46);
+    text-align: center;
+    color: white;
+    margin: 1px 0;
+    padding: 2px;
+}
