@@ -1,5 +1,6 @@
 /* A: body-e margin 0 verek ki, qiraqlarda bosluq olmasin */
 body {
+    margin: 0;
     background-color: rgb(240, 235, 235);
 }
 
@@ -91,12 +92,12 @@ a {
 }
 
 button {
-    background-color: aquamarine;
+    background-color:rgb(17, 63, 48);
     color: white;
     box-sizing: border-box;
     width: 150px;
     padding: 10px;
-    border-color: aquamarine;
+    border-color: rgb(17, 63, 48);
 }
 
 .icon1 {
