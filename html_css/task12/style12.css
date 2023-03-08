@@ -63,7 +63,8 @@ h2 {
     margin: 0 auto;
 }
 /* A: a1 tagi varmi? */
-a1 {
+/*var,siz bilmirsiz :))*/
+.pb{
     color: rgb(222, 58, 58);
     font-style: italic;
 }
