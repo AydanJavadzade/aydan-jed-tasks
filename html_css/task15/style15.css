@@ -22,21 +22,20 @@ div {
 }
 
 .box2 {
-    box-shadow: 4px 4px 6px rgb(156, 154, 154);
+    box-shadow: 0 0 6px rgb(117, 115, 115);
 }
 
 .box3 {
-    box-shadow: 6px 6px 8px rgb(156, 154, 154);
+    box-shadow: 0 0 10px rgb(117, 115, 115);
 }
 
 .box4 {
-    box-shadow: -8px 8px 10px rgb(156, 154, 154);
+    box-shadow: 0 0 14px rgb(117, 115, 115);
 }
 
 .box5 {
-    box-shadow: -10px 10px 12px rgb(156, 154, 154);
+    box-shadow: 0 0 18px rgb(117, 115, 115);
 }
-
 .box6 {
-    box-shadow: -14px 14px 16px rgb(156, 154, 154);
+    box-shadow: 0 0 22px rgb(117, 115, 115);
 }
