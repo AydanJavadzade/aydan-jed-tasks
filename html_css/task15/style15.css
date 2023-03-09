@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background-color: rgb(206, 204, 204);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container-flex {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+div {
+    width: 25%;
+    height: 350px;
+    background-color: white;
+}
+
+.box2 {
+    box-shadow: 4px 4px 6px rgb(156, 154, 154);
+}
+
+.box3 {
+    box-shadow: 6px 6px 8px rgb(156, 154, 154);
+}
+
+.box4 {
+    box-shadow: -8px 8px 10px rgb(156, 154, 154);
+}
+
+.box5 {
+    box-shadow: -10px 10px 12px rgb(156, 154, 154);
+}
+
+.box6 {
+    box-shadow: -14px 14px 16px rgb(156, 154, 154);
+}
