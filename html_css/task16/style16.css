@@ -30,16 +30,13 @@ p {
     display: flex;
     flex-direction: column;
     /* A: width-i px ile verin */
-    width: 22%;
+    width: 300px;
     border-radius: 5px;
-    box-shadow: 0 0 5px white;
+    box-shadow: 0 0 3px white;
 }
 
 img {
     width: 100%;
     height: 275px;
     /* A: background verilibmi? */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
