@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+}
+
+* {
+    font-family: nunito;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: nunito;
+    src: url(" NunitoSans-Regular.ttf ");
+}
+.main-container{
+    max-width:1920px ;
+}
+
+.container-flex {
+    display: flex;
+    max-width: 80%;
+    margin: 30px auto;
+    justify-content: space-between;
+}
+
+.container-text {
+    max-width: 600px;
+    min-width: 300px;
+    min-height: 300px;
+}
+
+h1 {
+    /* A: calc istifade edende operatorun sagina soluna bosluq vermelisiniz */
+    font-size: calc(1.5vw + 12px);
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: calc(0.5vw + 10px);
+    font-weight: bolder;
+}
+
+p {
+    font-size: calc(0.4vw + 10px);
+}
+
+.foto1 img {
+    max-width: 100%;
+    min-width: 250px;
+    height: 300px;
+    margin: 40px auto;
+}
+
+.footer-flex {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 80%;
+    min-width: 300px;
+    min-height: 300px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.foto2 img {
+    max-width: 100%;
+    min-width: 200px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.footer-text {
+    display: flex;
+    max-width: 100%;
+}
+
+.info-container {
+    width: 200px;
+}
+.info-container >p{
+    max-width: 150px;
+}
+@media(max-width:1349px) {
+    .container-flex .footer-flex {
+        max-width: 830px;
+    }
+
+    .foto2 {
+        display: none;
+    }
+}
+
+@media(max-width:829px) {
+    .container-flex .footer-flex {
+        max-width: 375px;
+    }
+
+    .container-flex {
+        flex-direction: column;
+    }
+
+    .foto2 {
+        display: none;
+    }
+
+    .footer-flex {
+        flex-flow: wrap;
+    }
+}
